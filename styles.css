@@ -37,6 +37,10 @@ h1                      {
     padding-bottom: 10px;
 }
 
+#computer               {
+    align-items: center;
+}
+
 footer                  {
     padding-top: 5%;
     color: grey;
