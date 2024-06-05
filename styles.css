@@ -6,13 +6,24 @@ body    {
 }
 
 #static_content_left    {
-    color: blue;
+    color:blue;
     padding: 10px;
     border: 2px;
     border-style: solid;
-    border-color: maroon;
+    border-color: blue;
     border-radius: 5px;
-    box-shadow:5px 5px #888888;
+    box-shadow:5px 5px grey;
+    margin: 5px;
+}
+
+#static_content_middle    {
+    color: green;
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    box-shadow:5px 5px grey;
     margin: 5px;
 }
 
@@ -23,26 +34,35 @@ body    {
     border-style: solid;
     border-color: maroon;
     border-radius: 5px;
-    box-shadow:5px 5px #888888;
+    box-shadow:5px 5px grey;
     margin: 5px;
 }
 
 #content_all             {
-    column-count: 2;
+    column-count: 3;
 }
 
 h1                      {
     text-align: center;
     font-size: 50px;
+    font-weight: bold;
     padding-bottom: 10px;
 }
 
-#computer               {
-    align-items: center;
+img             {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 50px;
 }
 
 footer                  {
     padding-top: 5%;
     color: grey;
     font-size: 15px;
+}
+
+hr                      {
+    width: 75%;
 }
