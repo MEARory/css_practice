@@ -1,0 +1,44 @@
+body    {
+    padding: 5%;
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+#static_content_left    {
+    color: blue;
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: maroon;
+    border-radius: 5px;
+    box-shadow:5px 5px #888888;
+    margin: 5px;
+}
+
+#static_content_right    {
+    color: maroon;
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: maroon;
+    border-radius: 5px;
+    box-shadow:5px 5px #888888;
+    margin: 5px;
+}
+
+#content_all             {
+    column-count: 2;
+}
+
+h1                      {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+footer                  {
+    padding-top: 5%;
+    color: grey;
+    font-size: 15px;
+}
